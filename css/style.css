@@ -1,0 +1,102 @@
+/* typography */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* contenitore navbar */
+
+.wrapper {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  width: 85%;
+}
+
+/* contenitore logo */
+.logo {
+  /* margin: 0 100px 0 0; */
+  width: 15%;
+}
+
+.logo img {
+  width: 150px;
+}
+
+header {
+    line-height: 60px;
+}
+
+/* margini navbar */
+
+.block_nav {
+  float: left;
+}
+
+.block_nav.central {
+  width: 45%;
+  margin: 0 5%;
+  /* margin: 0 120px; */
+}
+
+.block_nav.login {
+  width: 30%;
+  /* margin:0 0 0 100px; */
+}
+ /* stili lista navbars */
+
+nav ul {
+  list-style-type: none;
+  margin: 3px 0 0 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0px
+}
+
+nav ul li a {
+  color: #3b4c72;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #1abc9c;
+}
+
+/* clearfix */
+
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* hamburger menu */
+
+.hamburger-menu {
+  position: relative;
+}
+
+.hamburger-menu .fa-bars {
+  display: none;
+  color: blue;
+  position: absolute;
+  top: 25px;
+  font-size: 20px;
+  right: 20px;
+}
+
+@media all and (max-width: 992px) {
+  .block_nav.central,
+  .block_nav.login {
+    display: none;
+  }
+  .hamburger-menu .fa-bars {
+    display: block;
+  }
+}
