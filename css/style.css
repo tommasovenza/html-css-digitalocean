@@ -7,7 +7,7 @@ body {
 /* contenitore navbar */
 
 .wrapper {
-  /* max-width: 1200px; */
+  /* width: 1200px;  */
   margin: 0 auto;
   width: 85%;
 }
@@ -48,11 +48,14 @@ nav ul {
   list-style-type: none;
   margin: 3px 0 0 0;
   padding: 0;
+  /* attenzione */
+  float: right;
 }
 
 nav ul li {
   display: inline-block;
   margin-right: 20px;
+  
 }
 
 nav ul li:last-child {
@@ -91,6 +94,7 @@ nav ul li a:hover {
   right: 20px;
 }
 
+/* media queries nav bar e burger menu */
 @media all and (max-width: 992px) {
   .block_nav.central,
   .block_nav.login {
@@ -99,4 +103,18 @@ nav ul li a:hover {
   .hamburger-menu .fa-bars {
     display: block;
   }
+}
+
+
+#hero-section {
+  background: url(../img/bg-home-1-d54581d7.jpg)
+  
+}
+
+
+#hero-section .bg-grey {
+  background: #e7e8e9;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
 }
