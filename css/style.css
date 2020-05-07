@@ -8,8 +8,22 @@ p {
   line-height: 30px;
 }
 
-/* contenitore navbar */
+/* css bootstrap sovrascritto */
 
+.btn-primary {
+  border: none;
+  background-color: #006aff;
+}
+
+.btn-default {
+  color: #626262;
+  /* border: none; */
+  background-color: #fff;
+  /* box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); */
+}
+
+
+/* contenitore navbar */
 .wrapper {
   /* width: 1200px;  */
   margin: 0 auto;
@@ -18,7 +32,6 @@ p {
 
 /* contenitore logo */
 .logo {
-  /* margin: 0 100px 0 0; */
   width: 15%;
 }
 
@@ -44,8 +57,8 @@ header {
 .block_nav.login {
   width: 35%;
 }
- /* stili lista navbars */
 
+ /* stili lista navbars */
 nav ul {
   list-style-type: none;
   margin: 3px 0 0 0;
@@ -107,28 +120,55 @@ nav ul li a:hover {
   }
 }
 
+/* hero section */
 #hero-section {
-  background: url(../img/bg-home-1-d54581d7.jpg)
+  background: url(../img/bg-home-1-d54581d7.jpg);
+  background-size:cover;
+  height: 500px;
 }
 
 #hero-section .wrapper {
   width: 95%;
+  padding: 40px 0;
 }
 
-#hero-section .bg-grey {
-  background: #e7e8e9;
+#hero-section .bg-white {
+  background-color: #fff;
   padding: 20px;
   margin-top: 20px;
   border-radius: 10px;
 }
 
+#hero-section .wrapper-text p {
+  color: #bbcbfd;
+  font-size: 20px;
+}
+
 #hero-section h1 {
   font-size: 44px;
   color: #fff;
-  width: 450px;
+}
+
+#hero-section span {
+  color: #006aff;
 }
 
 #hero-section p {
   color: #fff;
 }
 
+/* media queries */
+
+@media all and (max-width: 600px) {
+  #hero-section {
+    height: 900px;
+  }
+
+  #hero-section h1 {
+    font-size: 32px;
+  }
+
+  #hero-section h2 {
+    font-size: 24px;
+  }
+}
