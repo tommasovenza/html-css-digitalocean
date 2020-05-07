@@ -229,3 +229,23 @@ main .wrapper-focus {
   width: 85%;
   margin: 0 auto;
 }
+
+main .lista ul {
+  list-style-type: none;
+  border-left: 1px solid #626262;
+  padding: 0;
+}
+
+main .lista ul li {
+  padding: 10px 0 0 10px;
+  font-size: 16px;
+}
+
+main .lista ul li:first-child {
+  padding-top: 0;
+}
+
+main .lista ul a {
+  color: #626262;
+  text-decoration: none;
+}
