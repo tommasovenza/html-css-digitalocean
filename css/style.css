@@ -4,6 +4,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+p {
+  line-height: 30px;
+}
+
 /* contenitore navbar */
 
 .wrapper {
@@ -33,14 +37,12 @@ header {
 }
 
 .block_nav.central {
-  width: 45%;
+  width: 40%;
   margin: 0 5%;
-  /* margin: 0 120px; */
 }
 
 .block_nav.login {
-  width: 30%;
-  /* margin:0 0 0 100px; */
+  width: 35%;
 }
  /* stili lista navbars */
 
@@ -89,9 +91,9 @@ nav ul li a:hover {
   display: none;
   color: blue;
   position: absolute;
-  top: 25px;
+  top: 22px;
   font-size: 20px;
-  right: 20px;
+  right: 0;
 }
 
 /* media queries nav bar e burger menu */
@@ -105,16 +107,28 @@ nav ul li a:hover {
   }
 }
 
-
 #hero-section {
   background: url(../img/bg-home-1-d54581d7.jpg)
-  
 }
 
+#hero-section .wrapper {
+  width: 95%;
+}
 
 #hero-section .bg-grey {
   background: #e7e8e9;
-  padding: 10px;
+  padding: 20px;
   margin-top: 20px;
   border-radius: 10px;
 }
+
+#hero-section h1 {
+  font-size: 44px;
+  color: #fff;
+  width: 450px;
+}
+
+#hero-section p {
+  color: #fff;
+}
+
