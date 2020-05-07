@@ -226,7 +226,7 @@ main .focus p {
 }
 
 main .wrapper-focus {
-  width: 85%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -238,7 +238,7 @@ main .lista ul {
 
 main .lista ul li {
   padding: 10px 0 0 10px;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 main .lista ul li:first-child {
@@ -248,4 +248,21 @@ main .lista ul li:first-child {
 main .lista ul a {
   color: #626262;
   text-decoration: none;
+}
+
+main .main-wrapper {
+  margin-top: 50px;
+  padding: 10px 50px 0 50px;
+}
+
+main .secondary-wrapper {
+  margin-top: 20px;
+}
+
+@media all and (max-width: 768px) {
+
+  .wrapper-focus .main-wrapper {
+    padding: 0;
+    margin: 0;
+  }
 }
