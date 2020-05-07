@@ -6,9 +6,10 @@ body {
 
 p {
   line-height: 30px;
+  font-size: 18px;
 }
 
-h2 {
+h2, h3 {
   color: #031c4e;
 }
 
@@ -87,7 +88,19 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: none;
-  color: #1abc9c;
+  color: #2285fd;
+}
+
+nav ul li a span {
+  color: #006aff;
+  border: 1px solid #006aff;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+
+nav ul li a span:hover {
+  background-color: #006aff;
+  color: #fff;
 }
 
 /* clearfix */
@@ -106,7 +119,7 @@ nav ul li a:hover {
 
 .hamburger-menu .fa-bars {
   display: none;
-  color: blue;
+  color: #2285fd;
   position: absolute;
   top: 22px;
   font-size: 20px;
@@ -141,6 +154,15 @@ nav ul li a:hover {
   padding: 20px;
   margin-top: 20px;
   border-radius: 10px;
+  position: relative;
+}
+
+#hero-section .bg-white img {
+  width: 25px;
+  height: 25px;
+  left: 11%;
+  top: 84.9%;
+  position: absolute;
 }
 
 #hero-section .wrapper-text p {
@@ -159,6 +181,10 @@ nav ul li a:hover {
 
 #hero-section p {
   color: #fff;
+}
+
+.button-container {
+  position: relative;
 }
 
 /* media queries */
@@ -185,6 +211,15 @@ main .wrap {
 main .loghi {
   background-color: #f3f3f3;
   padding: 50px;
+}
+
+main .loghi h3 {
+  text-transform: uppercase;
+}
+
+main .loghi p {
+  color: #006aff;
+  font-size: 16px;
 }
 
 main .loghi img {
@@ -220,6 +255,10 @@ main .wrapper-img.fix {
 }
 
 /* sezione focus */
+
+main .focus {
+  padding: 20px;
+}
 
 main .focus p {
   font-size: 20px;
@@ -270,7 +309,17 @@ main .secondary-wrapper {
 /* sezione carousel */
 
 #carousel {
+  padding: 20px 0;
   background-color: #f3f5f9;
+}
+
+#carousel p {
+  color: #586686;
+}
+
+#carousel img {
+  width: 500px;
+  padding-top: 50px;
 }
 
 #carousel ul {
@@ -281,3 +330,19 @@ main .secondary-wrapper {
   display: inline-block;
 }
 
+#carousel .carousel-list li:last-child {
+  color: #031c4e;
+}
+
+#carousel span {
+  color: #031c4e;
+}
+
+#carousel .carousel-list i {
+  font-size: 36px;
+  margin: 0 20px;
+}
+
+#carousel .fa-circle {
+  color: #006aff;
+}
