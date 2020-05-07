@@ -266,3 +266,18 @@ main .secondary-wrapper {
     margin: 0;
   }
 }
+
+/* sezione carousel */
+
+#carousel {
+  background-color: #f3f5f9;
+}
+
+#carousel ul {
+  list-style-type: none;
+}
+
+#carousel ul li {
+  display: inline-block;
+}
+
