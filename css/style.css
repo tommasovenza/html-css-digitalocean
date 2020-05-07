@@ -172,3 +172,41 @@ nav ul li a:hover {
     font-size: 24px;
   }
 }
+
+main .loghi {
+  background-color: #f3f3f3;
+  padding: 50px;
+}
+
+main .loghi img {
+  width: 150px;
+}
+
+main .wrapper-img.fix {
+  margin-top: 22px;
+}
+
+@media all and (max-width: 767px) {
+  main .loghi img {
+    width: 100px;
+  }
+  main .wrapper-img.fix {
+    margin: 0;
+  }
+  main .wrapper-img.fix img:last-child {
+    margin-top: 15px;
+  }
+  main .wrapper-img.fix * {
+    padding: 8px 0;
+  }
+}
+
+@media all and (min-width: 992px) {
+  main .wrapper img {
+    padding: 0 10px;
+  }
+  main .wrapper-img.fix-1 {
+    margin-left: 95px;
+  }
+}
+
