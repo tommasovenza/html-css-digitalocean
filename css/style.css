@@ -8,6 +8,10 @@ p {
   line-height: 30px;
 }
 
+h2 {
+  color: #031c4e;
+}
+
 /* css bootstrap sovrascritto */
 
 .btn-primary {
@@ -173,6 +177,11 @@ nav ul li a:hover {
   }
 }
 
+main .wrap {
+  width: 85%;
+  margin: 0 auto;
+}
+
 main .loghi {
   background-color: #f3f3f3;
   padding: 50px;
@@ -205,8 +214,18 @@ main .wrapper-img.fix {
   main .wrapper img {
     padding: 0 10px;
   }
-  main .wrapper-img.fix-1 {
+  /* main .wrapper-img.fix-1 {
     margin-left: 95px;
-  }
+  } */
 }
 
+/* sezione focus */
+
+main .focus p {
+  font-size: 20px;
+}
+
+main .wrapper-focus {
+  width: 85%;
+  margin: 0 auto;
+}
