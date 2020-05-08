@@ -357,9 +357,15 @@ main .secondary-wrapper {
 
 /* sezione needs */
 
+#needs {
+  padding-bottom: 50px;
+}
+
 #needs h2 {
   padding: 30px;
 }
+
+/* sezione tabelle customers */
 
 #customers {
   background: linear-gradient(#0046c4, #00229d);
@@ -381,6 +387,7 @@ main .secondary-wrapper {
 
 #customers .border {
   border-bottom: 1px solid white;
+  padding: 10px;
 }
 
 #customers #colonna-sx {
@@ -389,6 +396,11 @@ main .secondary-wrapper {
 
 #customers #colonna-dx {
   padding-left: 40px;
+}
+
+#customers a,
+#customers i {
+  color: #00d5d2;
 }
 
 @media all and (max-width: 768px) {
