@@ -324,6 +324,8 @@ main .secondary-wrapper {
 
 #carousel ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 #carousel ul li {
@@ -345,4 +347,54 @@ main .secondary-wrapper {
 
 #carousel .fa-circle {
   color: #006aff;
+}
+/* MEDIA QUERY NEEDS */
+@media all and (max-width: 768px) {
+  #carousel img {
+    max-width: 250px;
+  }
+}
+
+/* sezione needs */
+
+#needs h2 {
+  padding: 30px;
+}
+
+#customers {
+  background: linear-gradient(#0046c4, #00229d);
+  color: #fff;
+  padding: 100px 0;
+}
+
+#customers h2 {
+  padding: 30px 0;
+  text-align: center;
+  color: #fff;
+}
+
+#customers p {
+  font-size: 14px;
+  margin: 0;
+  line-height: normal;
+}
+
+#customers .border {
+  border-bottom: 1px solid white;
+}
+
+#customers #colonna-sx {
+  padding-right: 40px;
+}
+
+#customers #colonna-dx {
+  padding-left: 40px;
+}
+
+@media all and (max-width: 768px) {
+
+  #customers .col-xs-12,
+  #customers .col-md-5 {
+    padding: 0;
+  }
 }
