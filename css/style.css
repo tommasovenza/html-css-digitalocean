@@ -467,11 +467,12 @@ main .secondary-wrapper {
   }
 }
 
-/* section */
+/* section get started */
 
 #get-started {
   background: linear-gradient(#0046c4, #00229d);
-  padding: 100px 0;
+  padding: 60px 0;
+  height: 300px;
 }
 
 #get-started h2 {
