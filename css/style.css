@@ -20,11 +20,21 @@ h2, h3 {
   background-color: #006aff;
 }
 
+.btn-primary:hover {
+  background-color: orangered;
+}
+
 .btn-default {
   color: #626262;
   /* border: none; */
   background-color: #fff;
   /* box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); */
+}
+
+.btn-default:hover {
+  border: none;
+  background-color: #00229d;
+  color: #fff;
 }
 
 
@@ -86,7 +96,7 @@ nav ul li a {
   color: #3b4c72;
 }
 
-nav ul li a:hover {
+a:hover {
   text-decoration: none;
   color: #2285fd;
 }
@@ -202,19 +212,24 @@ nav ul li a span:hover {
     font-size: 24px;
   }
 }
-
-main .wrap {
-  width: 85%;
-  margin: 0 auto;
-}
-
+/* sezione loghi */
 main .loghi {
   background-color: #f3f3f3;
-  padding: 50px;
+  padding: 50px 0;
 }
 
 main .loghi h3 {
   text-transform: uppercase;
+}
+
+main .loghi a {
+  line-height: 100px;
+  color: #006aff;
+  font-size: 18px;
+}
+
+main .loghi a:hover {
+  color: orangered;
 }
 
 main .loghi p {
@@ -224,34 +239,25 @@ main .loghi p {
 
 main .loghi img {
   width: 150px;
+  vertical-align: middle;
 }
 
-main .wrapper-img.fix {
-  margin-top: 22px;
+main .loghi .wrapper-img ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-@media all and (max-width: 767px) {
-  main .loghi img {
-    width: 100px;
-  }
-  main .wrapper-img.fix {
-    margin: 0;
-  }
-  main .wrapper-img.fix img:last-child {
-    margin-top: 15px;
-  }
-  main .wrapper-img.fix * {
-    padding: 8px 0;
-  }
+main .loghi .wrapper-img li {
+  display: inline-block;
+  width: calc((100% / 6) -10px);
+  padding: 0 10px;
 }
 
-@media all and (min-width: 992px) {
-  main .wrapper img {
-    padding: 0 10px;
+@media all and (max-width: 768px) {
+  main .loghi .wrapper-img li {
+    width: calc((100% / 2) -10px);
   }
-  /* main .wrapper-img.fix-1 {
-    margin-left: 95px;
-  } */
 }
 
 /* sezione focus */
