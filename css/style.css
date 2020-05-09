@@ -6,7 +6,7 @@ body {
 
 p {
   line-height: 30px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 h2, h3 {
@@ -266,8 +266,9 @@ main .focus {
   padding: 20px;
 }
 
-main .focus p {
-  font-size: 20px;
+main .focus span {
+  font-size: 19px;
+  color: #586686;
 }
 
 main .wrapper-focus {
@@ -526,6 +527,10 @@ main .secondary-wrapper {
 
 #footer a {
   color: #a6adbd;
+}
+
+#footer a:hover {
+  color: orangered;
 }
 
 
