@@ -494,6 +494,7 @@ main .secondary-wrapper {
   background-color: #031c4e;
   padding: 100px 0;
   color: #a6adbd;
+  position: relative;
 }
 
 #footer p {
@@ -533,5 +534,49 @@ main .secondary-wrapper {
   color: orangered;
 }
 
+#footer .bot {
+  position: absolute;
+  right: 50px;
+  bottom: 70px;
+  background-color: #006aff;
+  padding: 5px 5px 0 5px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+#footer .bot img {
+  width: 60px;
+}
+
+#footer .bot .badge {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border: 2px solid #fff;
+}
+
+#footer .bot .badge span {
+  position: absolute;
+  right: 7px;
+  bottom: 4px;
+}
+
+#footer .wrap {
+  position: relative;
+}
+
+#footer .ballon {
+  background-color: #fff;
+  padding: 10px 10px;
+  color: #000;
+  position: absolute;
+  left: -470px;
+  top: -5px;
+  border-radius: 10px;
+}
 
 
