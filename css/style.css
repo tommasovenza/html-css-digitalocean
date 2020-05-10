@@ -397,17 +397,20 @@ main .secondary-wrapper {
   padding: 10px;
 }
 
-#customers #colonna-sx {
-  padding-right: 40px;
-}
-
-#customers #colonna-dx {
-  padding-left: 40px;
+#customers .wrap-text {
+  width: 100px;
 }
 
 #customers a,
 #customers i {
   color: #00d5d2;
+}
+
+
+@media all and (max-width: 992px) {
+  #customers #colonna-dx {
+    padding-top: 40px;
+  }
 }
 
 @media all and (max-width: 768px) {
