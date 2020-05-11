@@ -448,13 +448,15 @@ main .secondary-wrapper {
 .slider .slider-main .arrow {
   position: absolute;
   font-size: 40px;
-  top: 0 ;
+  top: 50%;
+  transform: translate(-50%);
 }
 .slider .slider-main .arrow.arrow-left {
   left: 0;
 }
 .slider .slider-main .arrow.arrow-right {
   right: 0;
+  color: #031c4e;
 }
 
 .slider-footer ul {
