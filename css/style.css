@@ -421,55 +421,68 @@ main .secondary-wrapper {
   }
 }
 
-/* sezione secondo carousel */
-#second-carousel {
+/* slider */
+
+#slider {
   background-color: #f3f5f9;
   padding: 50px 0;
   height: 600px;
+}
+
+.slider {
+  width: 70%;
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.slider .slider-main {
   position: relative;
-} 
-
-#second-carousel p {
-  font-size: 14px;
-  line-height: 25px;
-  margin-top: 10px;
 }
 
-#second-carousel img {
-  width: 300px;
-}
-
-#second-carousel .box {
-  padding: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.slider .slider-main .single-slide {
+  width: 80%;
+  margin: 0 auto;
   background-color: #fff;
 }
-
-#second-carousel .carousel-icon {
+/* arrow */
+.slider .slider-main .arrow {
   position: absolute;
-  top: 80%;
-  left: 48%;
-  transform: translate(-50%, -50%);
+  font-size: 40px;
+  top: 0 ;
+}
+.slider .slider-main .arrow.arrow-left {
+  left: 0;
+}
+.slider .slider-main .arrow.arrow-right {
+  right: 0;
 }
 
-#second-carousel .carousel-icon li {
+.slider-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.slider-footer ul li {
   display: inline-block;
+  color: #006aff;
+  margin-top: 50px;
 }
 
 /* media query */
 @media all and (max-width: 768px) {
-  #second-carousel .box {
+  #slider .slider-main .single-slide {
     padding: 5px;
+  }
 
+  #slider p {
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 20px;
   }
-  #second-carousel img {
-    width: 200px;
-  }
-  #second-carousel .carousel-icon {
-    left: 44.5%;
+
+  #slider img {
+    width: 150px;
   }
 }
 
